@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.form{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 400px;	
+}
+input[type="text"], input[type="number"]{
+	margin: 5px;
+    width: 200px;
+    height: 22px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px; 
+}
